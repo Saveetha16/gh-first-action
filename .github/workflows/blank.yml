@@ -8,5 +8,10 @@ jobs:
         run: echo "Github-Actions Worflow"
       - name : print body
         run: echo "Github-actions is a feature developed by Github to automate worflows within a code repository. It promotes CI / CD implementations"
+      - name: print extra details
+        run: |
+          echo "one"
+          echo "two"
+          echo "three"
       - name: print author details
         run: echo "Saveetha Annamalai"
