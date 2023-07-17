@@ -1,0 +1,12 @@
+name: first_action
+on: workflow_dispatch
+jobs:
+  first_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print title
+        run: echo "Github-Actions Worflow"
+      - name : print body
+        run: echo "Github-actions is a feature developed by Github to automate worflows within a code repository. It promotes CI / CD implementations"
+      - name: print author details
+        run: echo "Saveetha Annamalai"
